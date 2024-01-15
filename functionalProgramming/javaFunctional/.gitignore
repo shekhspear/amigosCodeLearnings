@@ -39,7 +39,3 @@ build/
 .DS_Store
 
 
-/target
-=======
-.idea/*
->>>>>>> b66d13b (checking in the main branch)
