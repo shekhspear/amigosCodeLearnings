@@ -1,5 +1,9 @@
+import java.time.LocalDate;
+
 public class ReferenceTypes {
     public static void main(String[] args) {
-        System.out.println("hello world ");
+        String str = new String("Hello this is the first string ");
+        LocalDate now = LocalDate.now();
+        System.out.println(str + now);
     }
 }
