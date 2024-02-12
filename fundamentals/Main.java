@@ -12,12 +12,10 @@ public class Main {
                 females.add(person);
             }
         }
-        for (Person femme : females) {
-            System.out.println(femme);
-        }
+        females.forEach(System.out::println);
     }
 
-    private static List<Person> getPeople() {
+    public static List<Person> getPeople() {
         return List.of(
                 new Person("John", 42, Gender.MALE),
                 new Person("Jinny", 22, Gender.FEMALE),
