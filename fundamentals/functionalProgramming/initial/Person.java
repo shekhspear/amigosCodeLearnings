@@ -1,3 +1,7 @@
+package functionalProgramming.initial;
+
+import functionalProgramming.initial.Gender;
+
 public class Person {
     private final String name;
     private final int age;
@@ -20,7 +24,7 @@ public class Person {
     }
 
     public String toString() {
-        return "Person{" +
+        return "functionalProgramming.initial.Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +

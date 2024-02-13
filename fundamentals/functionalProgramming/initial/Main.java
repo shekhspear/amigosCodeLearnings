@@ -1,3 +1,7 @@
+package functionalProgramming.initial;
+
+import functionalProgramming.initial.Gender;
+
 import java.util.ArrayList;
 import java.util.List;
 
